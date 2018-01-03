@@ -9,4 +9,15 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  
+  <servlet>
+        <servlet-name>principalServlet</servlet-name>
+        <servlet-class>ao.co.pirao.servlets.PrincipalServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>principalServlet</servlet-name>
+        <url-pattern>/oi</url-pattern>
+    </servlet-mapping>
 </web-app>
